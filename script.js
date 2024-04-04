@@ -4,7 +4,7 @@ function generate() {
   let txt = ''
   let full = []
   let people = document.getElementById('people').value.split(',')
-  let teams = document.getElementById('teams').value
+  let teams = parseInt(document.getElementById('teams').value)
   let output = document.getElementById('output')
   for (let i = 0; i < people; i++) {
     if (chek == teams) {
